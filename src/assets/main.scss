@@ -1,7 +1,12 @@
-$theme-colors: (
-  "primary": #3e87c7,
-  "danger": #ff4136
-);
+@import './colors.scss';
 
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
+
+body {
+    background-color: $body-background !important;
+}
+
+.neumorphic {
+    box-shadow: 4px 4px 9px 0 $body-dark-shadow, -4px -4px 9px 0 $body-light-shadow;
+}
