@@ -1,5 +1,5 @@
 import Home from '@/components/Home.vue'
-import CableScreen from '@/components/CableScreen.vue'
+import CableScreen from '@/features/cables/ui/CableScreen.vue'
 
 export const routes = [
   {
