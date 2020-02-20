@@ -26,21 +26,21 @@ export default {
           title: "Paneles",
           imgUrl:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Photovoltaik_Dachanlage_Hannover_-_Schwarze_Heide_-_1_MW.jpg/1200px-Photovoltaik_Dachanlage_Hannover_-_Schwarze_Heide_-_1_MW.jpg",
-          route: "",
+          route: "/paneles/",
           body: "Calcula el área de un panel de energía."
         },
         {
           title: "Demandas",
           imgUrl:
             "https://alternativeenergy24.com/wp-content/uploads/2019/09/enery-1.jpg",
-          route: "",
+          route: "/demanda/",
           body: "Calcula la demanda eléctrica de una casa."
         },
         {
           title: "Cables",
           imgUrl:
             "https://upload.wikimedia.org/wikipedia/commons/c/ca/500kV_3-Phase_Transmission_Lines.png",
-          route: "",
+          route: "/cables/",
           body: "Calcula el área de la sección transversal de un cable."
         }
       ]
