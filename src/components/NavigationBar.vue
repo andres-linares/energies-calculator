@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable="md" type="dark" variant="primary">
-    <b-navbar-brand href="#">Calculador Energías</b-navbar-brand>
+    <b-navbar-brand href="/">Calculador Energías</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 

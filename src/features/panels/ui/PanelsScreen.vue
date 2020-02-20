@@ -1,6 +1,6 @@
 <template>
   <b-container>
-    <SubHeader title="Área transversal de un cable">
+    <SubHeader title="Paneles">
 
     </SubHeader>
   </b-container>
@@ -10,7 +10,7 @@
 import SubHeader from '@/core/ui/SubHeader.vue'
 
 export default {
-  name: 'CableScreen',
+  name: 'DemandsScreen',
   components: {
     SubHeader
   }

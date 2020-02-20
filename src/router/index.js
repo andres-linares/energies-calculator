@@ -1,5 +1,7 @@
 import Home from '@/components/Home.vue'
 import CableScreen from '@/features/cables/ui/CableScreen.vue'
+import DemandsScreen from '@/features/demands/ui/DemandsScreen.vue'
+import PanelsScreen from '@/features/panels/ui/PanelsScreen.vue'
 
 export const routes = [
   {
@@ -8,14 +10,14 @@ export const routes = [
     component: Home
   },
   {
-    path: '/panels/',
+    path: '/paneles/',
     name: 'panels',
-    component: Home
+    component: PanelsScreen
   },
   {
-    path: '/demands/',
+    path: '/demanda/',
     name: 'demands',
-    component: Home
+    component: DemandsScreen
   },
   {
     path: '/cables/',
